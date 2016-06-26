@@ -1,0 +1,43 @@
+
+.clear{
+	height:0;
+	clear: both;
+}
+
+.btn-loadmore {
+  clear: both;
+  padding: 0;
+  color: #fff;
+  background: #6b7b84;
+  cursor: pointer;
+  text-align: center;
+  min-height: 34px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.btn-loadmore:hover {
+  background: #007a8f;
+  color: #fff;
+}
+.btn-loadmore.btn-loading {
+  background: url(../images/loadingp.gif) no-repeat center center;
+  border-color: transparent;
+}
+.btn-loadmore.btn-loading .des-load:before {
+  content: "";
+}
+.btn-loadmore .des-load {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 0;
+  display: block;
+  line-height: normal;
+}
+.btn-loadmore .des-load:before {
+  content: attr(data-label);
+}
+.btn-loadmore.btn-loaded  .des-load:before {
+  content: attr(data-label-loaded);
+}

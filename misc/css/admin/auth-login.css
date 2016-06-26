@@ -1,0 +1,93 @@
+@media (min-width: 320px) and (max-width: 600px) {
+	.reg-form.form-lg {
+	    max-width: 500px;
+	    width: 100%;
+	}
+	.form__block{
+		width: auto;
+	}
+	.reg-form .form-control{
+		font-size: 14px;
+	}
+	.checkbox > label > span{
+		font-size: 13px !important;
+	}
+	.g-recaptcha iframe{
+		width: 100% !important;
+	}
+	.reg-form.form-lg .btn.btn-join{
+		padding: 16px 20px 16px 20px;
+	}
+	.reg-form.form-lg .actions{
+		font-size: 14px !important;
+	}
+	.reg-form.form-lg #register-form #tabs{
+		width: 100%;
+	}
+	.reg-form.form-lg #register-form #tabs ul > li {
+		font-size: 13px;
+	}
+  .reg-form.form-lg div:nth-child(2), .reg-form.form-lg div:nth-child(5){
+     width: 100% !important;
+  }
+  #g-recaptcha div:nth-child(1) {
+   width: 100% !important;
+  }
+  #g-recaptcha iframe {
+    width: 100% !important;
+  }
+	input#fpass {
+    width: 99%;
+	}
+
+	button.btn.btn-success.custom_but{
+		float: right;
+	}
+
+	span.input-group-btn.gulpy{
+		margin-top: -1px;
+	}
+}
+@media (min-width: 320px) and (max-width: 400px) {
+	.reg-form .logo{
+		width: auto;
+	}
+	.reg-form{
+		width: 100%;
+		padding: 20px 30px;
+
+	}
+		.reg-form h4{
+			font-size: 17px;
+		}
+  .reg-form h1{
+    font-size: 100%;
+  }
+	.reg-form .actions a.text-primary{
+		margin-right: 0px;
+	}
+	.reg-form .actions a.text-primary, #register-form .actions a.text-primary{
+		font-size: 15px;
+	}
+	input#fpass {
+    width: 99%;
+	}
+	span.input-group-btn.gulpy{
+		margin-top: -1px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 350px) {
+  .reg-form h1{
+    font-size: 90%;
+  }
+
+
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 400px) {
+	.btn {
+	    padding: 10px 18px;
+	    font-size: 9px;
+	}
+}

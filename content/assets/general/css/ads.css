@@ -1,0 +1,65 @@
+/*ads-list*/
+.ads-list{
+	width:100%;
+	overflow:hidden;
+	margin:0;padding:5px 0 0;
+	font-size:12px;
+	line-height:14px;
+	background:none;
+	border:none;
+}
+.ads-list ul{
+	margin:0 0 -10px;padding:0;
+	list-style:none;
+	text-align:center;
+}
+.ads-list ul li{
+	width:200px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 0 10px;padding:0 1px;
+}
+* html .ads-list ul li{
+	display:inline;
+}
+*+html .ads-list ul li{
+	display:inline;
+}
+.ads-list ul li a{
+	min-height:299px;
+	height:auto !important;
+	height:299px;
+	display:block;
+	margin:0;padding:0;
+	text-decoration:none;
+	text-align:center;
+	color:#2a67b8;
+	border:2px solid #03cbff;
+}
+.ads-list ul li img{
+	width:100%;
+	border:none;
+}
+.ads-list ul li a:hover{
+	color:#ff0000;
+}
+.ads-list ul li span{
+	display:block;
+	margin:0 0 5px;padding:3px 0;
+}
+.ads-list ul li .title{
+	text-decoration:underline;
+}
+.ads-list ul li .desc{
+	font-weight:normal;
+	text-decoration:none;
+	color:#32342f;
+}
+.ads-list ul li .price{
+	margin:0;
+	font-size:14px;font-weight:bold;
+	line-height:16px;
+	text-decoration:none;
+	color:#ff0000;
+	background:#e2e2e2;
+}

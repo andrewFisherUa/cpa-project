@@ -1,0 +1,266 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300&subset=latin,cyrillic-ext);
+.fluid {
+  background: url(/misc/images/images/auth.jpg) no-repeat;
+  background-size: 100% 100%;
+  font: 300 16px 'Open Sans';
+  color: #666;
+}
+
+.partner-form {
+  width: 400px;
+}
+.btn-orange {
+  width: 200px;
+  font-size: 18px;
+  line-height: 2em;
+}
+#auth #remember-me {
+  color: #3a3a3a;
+}
+#forgot-pass  {
+  color: #3a3a3a;
+}
+#auth .help-block {
+  color: #3a3a3a;
+}
+#auth .help-block .pass-recovery {
+  color: #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
+  text-decoration: none;
+}
+#auth .help-block .pass-recovery:hover {
+  text-decoration: none;
+}
+#auth .help-block .btn-register {
+  margin-top: 10px;
+  position: relative;
+  left: -6px;
+}
+
+#forgot-pass h1 {
+  font-family: 'Open Sans';
+}
+#forgot-pass .btn-orange {
+  margin: 10px 0 16px 0;
+}
+
+.centered {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.fluid {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+/* .partner_form
+************************/
+.partner-form {
+  padding: 20px 40px;
+  border: 1px solid rgba(72,72,72,0.6);
+  background: rgba(255,255,255,.6);
+}
+
+.partner-form h1 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.partner-form .logo {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.partner-form .logo img {
+  width: 100%;
+}
+
+.partner-form  .form-group {
+  margin-bottom: 9px;
+}
+
+.form-group.has-icon {
+  position: relative;
+}
+
+.form-group.has-icon .form-control {
+  padding-left: 32px;
+}
+
+.form-group.has-icon i {
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  margin-top: -8px;
+}
+
+.form-control {
+  background: #e8e8e8;
+  border: 1px solid #7b7b7b;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.partner-form .form-control::-webkit-input-placeholder {
+   color: #666;
+}
+
+.partner-form .form-control:-moz-placeholder { /* Firefox 18- */
+   color: #666;
+}
+
+.partner-form .form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #666;
+}
+
+.partner-form .form-control:-ms-input-placeholder {
+   color: #666;
+}
+
+.form-control:focus {
+  border-color: #f25a18;
+  box-shadow: 0 0 3px 1px rgba(242, 90, 24, .5);
+  outline: none;
+}
+
+/* Buttons */
+#auth .btn-orange,
+#recovery .btn-orange {
+  cursor: pointer;
+  width: 200px;
+  line-height: 34px;
+  height: 34px;
+  background: url(/misc/images/images/auth-buttons.png) 0 0;
+}
+#auth .btn-orange:hover,
+#recovery .btn-orange:hover {
+  background: url(/misc/images/images/auth-buttons.png) 0 -34px;
+}
+
+#forgot-pass .btn-orange {
+  width: 150px;
+  line-height: 30px;
+  height: 30px;
+  background: url(/misc/images/images/auth-buttons.png) 0 -140px;
+}
+#forgot-pass .btn-orange:hover {
+  background: url(/misc/images/images/auth-buttons.png) 0 -170px;
+}
+
+.btn {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  padding:0;
+}
+
+.btn.btn-green {
+  width: 210px;
+  line-height: 36px;
+  height: 36px;
+  background: url(/misc/images/images/auth-buttons.png) no-repeat 0 -68px;
+}
+.btn.btn-green:hover {
+  background: url(/misc/images/images/auth-buttons.png) no-repeat 0 -104px;
+}
+.btn:link,
+.btn:visited,
+.btn:hover,
+.btn:active,
+button.btn:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+
+.social {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.social li {
+  display: inline-block;
+  vertical-align: top;
+  margin:0;
+}
+
+.social li a {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
+.social li a.ico-facebook {
+  background: url(/misc/admin/images/icons/social.png) no-repeat 0 0;
+}
+.social li a.ico-google {
+  background: url(/misc/admin/images/icons/social.png) no-repeat -28px 0;
+}
+.social li a.ico-twitter {
+  background: url(/misc/admin/images/icons/social.png) no-repeat -56px 0;
+}
+.social li a.ico-linkedin {
+  background: url(/misc/admin/images/icons/social.png) no-repeat -84px 0;
+}
+
+.social li a.ico-facebook:hover {
+  background: url(/misc/admin/images/icons/social.png) no-repeat 0 -28px;
+}
+.social li a.ico-google:hover {
+  background: url(/misc/admin/images/icons/social.png) no-repeat -28px -28px;
+}
+.social li a.ico-twitter:hover {
+  background: url(/misc/admin/images/icons/social.png) no-repeat -56px -28px;
+}
+.social li a.ico-linkedin:hover {
+  background: url(/misc/admin/images/icons/social.png) no-repeat -84px -28px;
+}
+
+.form-error, .form-success {
+  display: none;
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: right;
+}
+
+.form-error {
+  color: red;
+}
+
+.form-error {
+  color: green;
+}
+
+#success {
+  padding: 20px 0 0;
+}
+
+#success .btn {
+  margin: 16px auto;
+  display: block;
+}
+
+.actions a {
+  color: #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.actions a:hover {
+  color: #000;
+  border-bottom-color: #000;
+}

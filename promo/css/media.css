@@ -1,0 +1,685 @@
+@media screen and (max-width: 1150px) {
+  body {
+    width: 100%;
+    min-width: 320px;
+    margin: 0;
+  }
+  #header .container {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+  #header .buttons .btn {
+    display: inline-block;
+    width: 115px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 21px;
+  }
+  #header .logo img {
+    width: 145px;
+    height: auto;
+  }
+  #header {
+    height: 57px;
+  }
+  #header .buttons {
+    float: left;
+    width: 49%;
+    margin-top: 15px;
+  }
+  #banner {
+    width: 100%;
+    background: rgba(0, 0, 0, 0) url("../images/bg.png") no-repeat scroll center top;
+    box-shadow: none;
+  }
+  .row {
+    width: 100%;
+    margin: 0;
+    max-width: 1150px;
+  }
+  #header .logo {
+    height: 57px;
+    width: 50%;
+  }
+  #nav {
+    display: none;
+  }
+  #mockup-holder {
+    display: none;
+  }
+  #banner h1 {
+    font-size: 22px;
+  }
+  #banner .col-xs-7 {
+    width: 100%;
+  }
+  .btn.btn-grey,
+  #header .buttons .btn-grey {
+    width: 115px;
+    height: 20px;
+    background: url("../images/mobile/btn-grey.png") no-repeat 0 0;
+  }
+  .btn.btn-green {
+    width: 115px;
+    height: 20px;
+    background: url("../images/mobile/btn-green.png") no-repeat 0 0;
+  }
+  .btn.btn-grey:hover {
+    width: 115px;
+    height: 20px;
+    background: url("../images/mobile/btn-grey.png") no-repeat -20px 0;
+  }
+  .btn.btn-green:hover {
+    width: 115px;
+    height: 20px;
+    background: url("../images/mobile/btn-green.png") no-repeat 0 0;
+  }
+  .mobile {
+    display: block !important;
+  }
+  #banner .col-xs-7 > p {
+    display: none;
+    font: 700 14px "Segoe Script";
+    text-align: center;
+  }
+  #banner .join {
+    background: rgba(0, 0, 0, 0) url("../images/flow.png") no-repeat scroll 86% 20px;
+    background-size: 100%;
+    padding-top: 45%;
+  }
+  .btn.btn-join {
+    background: rgba(0, 0, 0, 0) url("../images/mobile/join.png") no-repeat scroll 0 0;
+    width: 223px;
+    font-size: 13px;
+    line-height: 40px;
+    margin-top: -7px;
+    position: relative;
+    left: -35px;
+  }
+  #banner #about-us {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+  #banner #about-us .frame {
+    background: none;
+    width: 100%;
+    height: auto;
+  }
+  #banner .container #about-us .about-us-footer h3 {
+    font-size: 14px;
+    width: 100%;
+  }
+  #banner #about-us .btn {
+    line-height: 36px;
+    margin-bottom: 10px;
+    width: 210px;
+    background: url(../images/buttons.png) no-repeat 0 0;
+    height: 36px;
+  }
+  #reasons {
+    background: url(../images/mobile/orange.png) repeat top center;
+    box-shadow: inset 0 20px 20px -20px #3b3b3b;
+  }
+  #reasons p.up {
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  #reasons .container {
+    padding: 0;
+  }
+  #reasons .math {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  #reasons .math .left {
+    font-size: 10px;
+  }
+  #reasons .math .right {
+    font-size: 11px;
+    margin-left: 10px;
+  }
+  #reasons .math .left::after {
+    background: rgba(0, 0, 0, 0) url("../images/mobile/arrow1.png") repeat scroll 0 0;
+    width: 28px;
+    height: 12px;
+    right: -17px;
+    top: 20px;
+  }
+  #reasons table {
+    display: none;
+  }
+  #reasons table.mobile {
+    display: table;
+    border-spacing: 10px 15px;
+  }
+  #reasons table.mobile td span {
+    text-align: left;
+    display: block;
+  }
+  #reasons table.mobile td {
+    text-align: center;
+    border-spacing: 0;
+  }
+  #reasons table.mobile .image1 {
+    margin: 0 auto;
+    text-align: center;
+    height: 60px;
+  }
+  #banner #about-us .frame iframe {
+    /*height: auto;*/
+  }
+  #reasons table.mobile td span {
+    font-size: 10px;
+  }
+  .bbottom {
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #424242;
+    padding: 10px 0;
+    color: #fff;
+  }
+  .after-reasons {
+    display: none;
+    background: url("../images/mobile/tab-bot.png") no-repeat center 0;
+    background-size: 100% 100%;
+    width: 100%;
+    margin-top: -1px;
+    height: 127px;
+  }
+  #features .logo {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    position: static;
+    padding-bottom: 10%;
+  }
+  #features {
+/*    margin-top: -40px;
+    background: none*/
+    background-size: 100%;
+  }
+  #features .feature {
+    position: relative;
+    padding-left: 58px;
+    margin-top: -10px;
+    padding-bottom: 15px;
+    top: 0 !important;
+    height: 100%;
+    left: 0 !important;
+    width: 100%;
+  }
+  #features .feature:before {
+    left: -20px;
+    top: 55px;
+  }
+  #features .feature-1:before {
+    background: url("../images/mobile/stat1.png") no-repeat 0 0;
+  }
+  #features .feature-2:before {
+    background: url("../images/mobile/stat2.png") no-repeat 0 0;
+  }
+  #features .feature-3:before {
+    background: url("../images/mobile/stat3.png") no-repeat 0 0;
+  }
+  #features .feature-4:before {
+    background: url("../images/mobile/stat4.png") no-repeat 0 0;
+  }
+  #features .feature-5:before {
+    background: url("../images/mobile/stat5.png") no-repeat 0 0;
+  }
+  #mguarantee {
+    overflow-x: hidden;
+    display: block;
+  }
+  #back-to-top {
+    display: none !important;
+  }
+  #features .feature p {
+    font-size: 10px;
+    padding-left: 35px;
+    width: 100%;
+    margin: 0;
+  }
+  #features .container {
+    height: 100%;
+  }
+  #features .feature-1 h4, #features .feature-1 .num {
+    font-size: 12px;
+  }
+  #features .feature h4 {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  #features .feature p .num {
+    font-size: 57px;
+    line-height: 30px;
+    width: 26px;
+    top: 10px;
+  }
+  #guarantee {
+    display: none;
+  }
+  .join-us {
+    background: url(../images/mobile/bg-1.png) no-repeat top center;
+  }
+  .join-us h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .join-us p img {
+    width: 150px;
+    top: -12px;
+    padding-right: 5px;
+  }
+  .join-us p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  .join-us .btn.btn-grey,
+  .join-us input {
+    display: none;
+  }
+  .join-us .btn-join {
+    margin: 0 auto;
+    left: 0;
+  }
+  .join-us .consultation {
+    text-align: center;
+  }
+  #pics {
+    display: none;
+  }
+  #easy-work .row.mobile {
+    display: none !important;
+  }
+  #easy-work {
+    background: url(../images/mobile/bg2.jpg) no-repeat top center;
+  }
+  #easy-work h2 {
+    margin-top: 0;
+    font-size: 19px;
+    padding-top: 20px;
+  }
+  #easy-work table {
+    display: none;
+  }
+  #easy-work table.mobile {
+    display: table;
+    border-spacing:5px 10px;
+  }
+  #easy-work table td {
+    width: 50%;
+  }
+  #easy-work table td.image {
+    margin-top: 25px;
+  }
+  #easy-work table td.header {
+    font-size: 11px;
+    text-align: center;
+    height: 100%;
+  }
+  #easy-work table td.content {
+    font-size: 10px;
+  }
+  #products {
+    display: none;
+  }
+  #slider .carousel .carousel-inner .item-1 h3 {
+    font-size: 20px;
+    margin-top: 42px;
+  }
+  #slider .carousel .carousel-inner .item h3 small {
+    font-size: 14px;
+  }
+  #slider .carousel .carousel-inner .item-1 p {
+    margin-top: 0;
+    width: 100%;
+    margin-left: 13px;
+  }
+  #slider .carousel .carousel-inner .item-1 ul {
+    margin-left: 0;
+    font-size: 11px;
+    width: 100%;
+  }
+  #qa {
+    display: none;
+  }
+  #register {
+    background: #eee url("../images/mobile/mheading.png") no-repeat scroll -35px -1px
+  }
+  #register h2 {
+    font-size: 24px;
+    margin-top: 5px;
+    padding-top: 0;
+  }
+  #footer ul {
+    display: none;
+  }
+  #footer .col-xs-4.text-right {
+    display: none;
+  }
+  #footer .col-xs-4.contact-data {
+    width: 100%;
+    font-size: 12px;
+    display: block !important;
+  }
+  #footer .footer-inner .container > .col-xs-4 {
+    display: none;
+  }
+  #footer .phone, #footer .email {
+    width: 200px;
+    margin: 0 auto;
+  }
+  #slider .carousel-indicators {
+    width: 90%;
+    height: 12px;
+    left: 5%;
+    margin: 0;
+  }
+  #slider .carousel-indicators .active {
+    background: url(../images/mobile/pager.png);
+    background-size: 100% 100%;
+  }
+  #slider .carousel-indicators li {
+    height: 12px !important;
+    width: 25% !important;
+  }
+  #slider .carousel .carousel-inner .item-3 .container,
+  #slider .carousel .carousel-inner .item-4 .container {
+    padding: 0;
+  }
+  #slider .carousel-control.left, #slider .carousel-control.right {
+    height: 10px;
+  }
+  .carousel-control {
+    top: inherit;
+    bottom: 60px;
+  }
+  #slider .carousel-control .glyphicon-chevron-right,
+  #slider .carousel-control .glyphicon-chevron-left {
+    margin: 0 !important;
+  }
+  #slider .carousel .carousel-inner .item-1 ul li {
+    padding-left: 15px;
+  }
+  #slider .carousel .carousel-inner .item-2 h3 {
+    font-size: 18px;
+    margin-top: 38px;
+  }
+  #slider .carousel .carousel-inner .item-2 ul {
+    width: 100%;
+  }
+  #slider .carousel .carousel-inner .item-2 p {
+    width: 100%;
+    margin-top: 5px;
+  }
+  #slider .carousel .carousel-inner .item-3 h3 {
+    font-size: 21px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  #slider .carousel .carousel-inner .item-3 p {
+    width: 100%;
+    margin-top: 38px;
+  }
+  #slider .carousel .carousel-inner .item-4 h3 {
+    font-size: 21px;
+  }
+  #slider .carousel .carousel-inner .item-4 p {
+    width: 100%;
+    margin-top: 26px;
+  }
+  #reasons p.up:after {
+    display: none;
+  }
+  #slider .carousel .carousel-inner .item-1 {
+    background: url(../images/slide-1.jpg) no-repeat top left;
+  }
+  #slider .carousel .carousel-inner .item-1 ul li:before {
+    left: -10px;
+  }
+  #slider .carousel .carousel-inner .item-2 {
+    background: url(../images/slide-2.png) no-repeat top left;
+  }
+  #slider .carousel .carousel-inner .item-2 .container {
+    background: none;
+  }
+  #slider .carousel .carousel-inner .item-3 .container {
+    background: none;
+  }
+  #slider .carousel .carousel-inner .item-3 p:after {
+    content: "";
+    display: block;
+    width: 298px;
+    height: 78px;
+    margin: 0 auto;
+    background: url("../images/mobile/sl-blocks.png") no-repeat 0 0;
+  }
+  #slider .carousel .carousel-inner .item-4 .container {
+    background: none;
+  }
+  #slider .carousel .carousel-inner .item-4 .container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .bonus-color {
+    font-family: "Segoe Script", sans-serif;
+    font-size: 12px;
+  }
+  .bonus-color-1 {
+    color: #4f4f4e;
+  }
+  .bonus-color-2 {
+    color: #719404;
+  }
+  .bonus-color-3 {
+    color: #98ca06;
+  }
+  .bonus-color-4 {
+    color: #fda909;
+  }
+  .bonus-color-5 {
+    color: #ff7302;
+  }
+  #regform .row {
+    margin: 45px 0 0;
+  }
+  #regform .row .col-xs-6 {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  #register .form-container {
+    width: 100%;
+  }
+  .mmenu {
+    display: block;
+    background: url("../images/mobile/mmenu.png") no-repeat 0 0;
+    width: 21px;
+    height: 14px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+  #fdomen {
+    width: 100%;
+  }
+  #register .help-block {
+    display: none;
+  }
+  #register .btn.check {
+    position: absolute;
+    right: 0;
+    top: 40px;
+  }
+  #register .form-group.row .col-xs-3 #capt{
+    display: block;
+    margin-left: 5px;
+  }
+  #register .form-group.row .col-xs-3 {
+    width: 50%;
+  }
+  #register #fcode {
+    margin-top: 23px;
+  }
+  .copyright .container {
+    text-align: center;
+    padding: 0;
+    width: 60%;
+  }
+  #mguarantee .reviews {
+    margin-top: 20px;
+    background: url("../images/green-dialog.png") no-repeat 0 0;
+    width: 100%;
+    right: -10%;
+    background-size: 100%;
+    position: absolute;
+    height: 230px;
+  }
+  #mguarantee h2 {
+    color: #fdfdfd;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 50px;
+  }
+  .succesful {
+    display: none;
+  }
+  #mguarantee strong {
+    display: block;
+    color: #fdfdfd;
+    font-size: 10px;
+  }
+  #mguarantee p {
+    padding-left: 15px;
+    color: #3d3d3d;
+    font-size: 9px;
+    width: 85%;
+  }
+  .btn.btn-orange {
+    width: 95px;
+    height: 16px;
+    background: url("../images/mobile/add-review.png") no-repeat 0 0;
+    font-size: 10px;
+    line-height: 15px;
+    position: relative;
+    top: -10px;
+    right: 40px;
+  }
+  .garant {
+    width: 270px;
+    margin-left: -50px;
+    margin-top: 250px;
+    height: 246px;
+    background: url("../images/orange-dialog.png") no-repeat 0 0;
+    background-size: 100% 100%;
+  }
+  #mguarantee .garant ul {
+    font-size: 11px;
+    width: 80%;
+    list-style-type: none;
+  }
+  #mguarantee .garant ul li:before {
+    content: '- ';
+  }
+
+  #mguarantee .garant h3 {
+    font-size: 13px;
+    padding-left: 40px;
+    width: 70%;
+    font-family: "Segoe Script", sans-serif;
+  }
+  #mguarantee .garant h2 {
+    font-size: 20px;
+    padding-top: 35px;
+  }
+  #about-us .row .col-xs-6.text-center {
+    width: 100%;
+    padding: 0;
+  }
+  #reasons .container .row .col-xs-12 {
+    padding: 0;
+  }
+  #reasons table tr:last-child td {
+    padding: 0;
+  }
+  .logo {
+    display: none;
+  }
+  .logo.mobile {
+    display: block;
+  }
+  #banner .container #about-us .row .col-xs-6.mobile {
+    display: none !important;
+  }
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding: 0;
+  }
+  .mobile-menu {
+    display: block;
+    position: relative;
+  }
+  .mobile-menu ul {
+    display: none;
+    position: absolute;
+    background: #8ab800;
+    right: 0;
+    top: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    z-index: 999;
+  }
+  .mobile-menu ul li {
+    padding: 0 5px;
+    height: 30px;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    line-height: 30px;
+  }
+  .mobile-menu ul li a {
+    color: #fff;
+  }
+  #register .btn-join {
+    left: 0;
+    margin: 10px auto 0;
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1350px){
+  #mguarantee .reviews {
+    width: 60%;
+    right: 0;
+  }
+  .garant {
+    width: 75%;
+    padding-left: 15px;
+  }
+  #mguarantee p {
+    font-size: 10px;
+  }
+  .btn.btn-orange {
+    top: -15px;
+  }
+  #features .feature {
+    height: 100px;
+  }
+}
+@media screen and (min-width: 1350px) {
+  #banner #about-us .frame iframe {
+    width: 100%;
+    height: 100%;
+  }
+}

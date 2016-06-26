@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^/misc
+RewriteCond %{REQUEST_URI} !^/assets
+RewriteCond %{REQUEST_URI} !^/cron
+RewriteCond %{REQUEST_URI} !^/streams
+
+RewriteRule ^(.*)$ index.php?q=$1 [QSA,L]
